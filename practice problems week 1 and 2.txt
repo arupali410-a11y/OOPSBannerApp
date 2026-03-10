@@ -1,0 +1,41 @@
+public class AveragePCM {
+    public static void main(String[] args) {
+
+        String studentName = "Sam";
+
+        double mathsMarks = 94;
+        double physicsMarks = 95;
+        double chemistryMarks = 96;
+
+        double totalMarks = mathsMarks + physicsMarks + chemistryMarks;
+        double numberOfSubjects = 3;
+
+        double averageMarks = totalMarks / numberOfSubjects;
+
+        System.out.println(studentName + "'s average mark in PCM is " + averageMarks);
+    }
+}
+public class DistanceConversion {
+    public static void main(String[] args) {
+
+        double distanceInKilometers = 10.8;
+        double kilometerToMileFactor = 1.6;
+
+        double distanceInMiles = distanceInKilometers / kilometerToMileFactor;
+
+        System.out.println("The distance " + distanceInKilometers +
+                " km in miles is " + distanceInMiles);
+    }
+}
+public class HarryAge {
+    public static void main(String[] args) {
+
+        String name = "Harry";
+        int birthYear = 2000;
+        int currentYear = 2024;
+
+        int age = currentYear - birthYear;
+
+        System.out.println(name + "'s age in " + currentYear + " is " + age);
+    }
+}
